@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="122dp"
+            android:layout_height="54dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome"
+            android:id="@+id/textView" android:layout_x="124dp" android:layout_y="33dp"/>
+    <TextView
+            android:layout_width="290dp"
+            android:layout_height="77dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Select from the options below to proceed:"
+            android:id="@+id/textView2" android:layout_x="49dp" android:layout_y="68dp"/>
+</AbsoluteLayout>

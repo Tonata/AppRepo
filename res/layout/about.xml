@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="124dp"
+            android:layout_height="54dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About Me"
+            android:id="@+id/textView" android:layout_x="138dp" android:layout_y="38dp"/>
+    <TextView
+            android:layout_width="283dp"
+            android:layout_height="68dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Full Name: Tonata Magano Nakashololo"
+            android:id="@+id/textView2" android:layout_x="46dp" android:layout_y="318dp"/>
+    <TextView
+            android:layout_width="245dp"
+            android:layout_height="51dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Birth Date: 16 March 1993"
+            android:id="@+id/textView3" android:layout_x="44dp" android:layout_y="369dp"/>
+    <ImageView
+            android:layout_width="205dp"
+            android:layout_height="205dp"
+            android:id="@+id/imageView" android:layout_x="76dp" android:layout_y="80dp" android:src="@drawable/images"/>
+
+    <TextView
+            android:layout_width="214dp"
+            android:layout_height="43dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Birth Country: Namibia"
+            android:id="@+id/textView4" android:layout_x="44dp" android:layout_y="396dp"/>
+    <TextView
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Field of Study: Software Development"
+            android:id="@+id/textView5" android:layout_x="46dp" android:layout_y="426dp"/>
+</AbsoluteLayout>

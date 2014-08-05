@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+
+            android:ems="10"
+            android:id="@+id/txtUsername" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="57dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtPassword" android:layout_below="@+id/txtUsername" android:layout_alignLeft="@+id/txtUsername"
+            android:layout_marginTop="62dp"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Password"
+            android:id="@+id/checkBox1" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:checked="false"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/btnLogin" android:layout_below="@+id/checkBox1" android:layout_toLeftOf="@+id/checkBox1"
+            android:layout_marginTop="92dp"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/btnClear" android:layout_alignTop="@+id/btnLogin" android:layout_toRightOf="@+id/checkBox1"/>
+</RelativeLayout>
